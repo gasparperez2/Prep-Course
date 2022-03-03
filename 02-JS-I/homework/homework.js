@@ -28,14 +28,14 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return ('str');
+  return (str);
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return (x+ '' +y);
+  return (x+y);
 }
 
 function resta(x, y) {
@@ -228,7 +228,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra == 'a'||letra == 'e'|| letra == 'i'||letra == 'o'||letra =='u') {
+  if (letra == 'a' || letra == 'e'|| letra == 'i' || letra == 'o'|| letra == 'u') {
     return ('Es vocal');
   }
   else {
